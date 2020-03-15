@@ -1,3 +1,25 @@
+### About
+A snippet of an e-commerce interface with 
+-   Sign-in/Login and Register feature.  
+-   Shopping Cart.
+-   Multiple routing.
+-   Checkout page with dynamic total.
+-   Shopping and category page.
+
+### Technologies used
+- JS(React, Redux)
+- ReactRouter
+- Firebase (database, sign-in and register feature)
+- HTML5
+- CSS3
+
+
+### How to use
+- Run using create-react-app or cloning.
+- Copy the neccessary config object code in the "firebase.utils" file, from your personal firebase account.
+- run on localhost using "npm start" command.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

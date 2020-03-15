@@ -1,0 +1,10 @@
+.registration {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 100px) and (max-width: 500px) {
+  .registration {
+    display: block;
+  }
+}
