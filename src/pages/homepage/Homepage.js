@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import {Footer} from "../../components/Footer/Footer"
 import "./Homepage.css";
 import { Link } from "react-router-dom";
 
@@ -36,8 +37,11 @@ const Homepage = () => {
                 <div className="div-one"></div>
                 <div className="div-two"></div>
                 <div className="div-three"></div>
+                <div className="div-one"></div>
+                <div className="div-two"></div>
+                <div className="div-three"></div>
             </div>
-
+            <Footer />
         </div>
     );
 }

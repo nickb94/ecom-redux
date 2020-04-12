@@ -3,7 +3,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 var config = {
-    //Your Config Code From Your Firebase Account consisting of API key etc..
+    apiKey: "AIzaSyBFIgaqmre7lhMndoDGeFWrfjLQGf_KpqE",
+    authDomain: "label-inc-db.firebaseapp.com",
+    databaseURL: "https://label-inc-db.firebaseio.com",
+    projectId: "label-inc-db",
+    storageBucket: "label-inc-db.appspot.com",
+    messagingSenderId: "104751752546",
+    appId: "1:104751752546:web:79509d83d5a326afa6783b"
 };
 
 //async API request to store uid to firestore database
