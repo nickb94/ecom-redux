@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
-import "./Category.css";
 import Directory from "../../components/Directory/Directory";
+import {Footer} from "../../components/Footer/Footer"
 
+import "./Category.css";
 const Category = () => {
 
     useEffect(() => {
@@ -18,6 +19,7 @@ const Category = () => {
 
         <div className="wrapper">
             <Directory />
+            <Footer />
         </div>
     );
 }

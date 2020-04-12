@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import { Footer } from "../../components/Footer/Footer";
 import "./Checkout.css";
 
 import { connect } from "react-redux";
@@ -19,7 +19,9 @@ const Checkout = ({ cartItems, total }) => {
     }, []);
 
     return (
+        <>
         <div className="checkout-wrapper">
+        <div className="header_label">Checkout Summary</div>
             <div className="checkout-header">
                 <div className="checkoutproduct">Product</div>
                 <div className="checkoutdescription">Description</div>
@@ -38,6 +40,8 @@ const Checkout = ({ cartItems, total }) => {
                 <span>Total: $ {total}</span>
             </div>
         </div>
+        <Footer />
+        </>
     );
 }
 

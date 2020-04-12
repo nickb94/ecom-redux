@@ -1,9 +1,9 @@
 import React from "react";
-import "./ShopPage.css";
 import { SHOP_DATA } from "./shopData";
 import CollectionPreview from "../../components/CollectionPreview/CollectionPreview";
+import {Footer} from "../../components/Footer/Footer"
 
-
+import "./ShopPage.css";
 
 class ShopPage extends React.Component {
 
@@ -36,6 +36,7 @@ class ShopPage extends React.Component {
                         <CollectionPreview key={id} {...otherCollectionProps} />
                     ))
                 }
+                <Footer />
             </div>
         );
     }

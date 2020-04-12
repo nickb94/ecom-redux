@@ -12,6 +12,7 @@ import Checkout from "./pages/checkout/Checkout";
 import Header from "./components/Header/Header";
 import Category from "./pages/categories/Category";
 import Registration from "./pages/Registration/Registration";
+import About from "./pages/About/About";
 
 
 const App = (props) => {
@@ -54,6 +55,7 @@ const App = (props) => {
         <Route exact path="/" component={Homepage} />
         <Route path="/categories" component={Category} />
         <Route path="/shop" component={ShopPage} />
+        <Route path="/about" component={About} />
         <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/signin" render={() => props.currentUser ? <Redirect to="/" /> : <Registration />} />
       </Switch>

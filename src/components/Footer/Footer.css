@@ -23,12 +23,7 @@
     height: 350px;
     width: 250px;
     background: rgb(255, 255, 255);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+}
 
   .column_three {
     height: 350px;
@@ -45,19 +40,15 @@
     height: 350px;
     width: 250px;
     background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   
   }
   .column_five {
-    height: 350px;
-    width: 250px;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+  }
+
+  .column_one > div div,.column_three > div div{
+    margin-bottom: 10px;
   }

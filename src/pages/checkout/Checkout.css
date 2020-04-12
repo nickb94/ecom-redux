@@ -4,15 +4,21 @@
   align-items: center;
 }
 
+.header_label{
+
+  font-size: 90px;
+}
+
+
 .checkout-header {
-  margin: 60px;
+  margin: 10px 60px;
   padding: 40px;
   display: grid;
-  width: 100%;
+  width: 50%;
   font-size: 13px;
   text-align: center;
   border-bottom: 5px solid #d3d3d342;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   grid-gap: 10px;
 }
 .checkout-items {
@@ -22,6 +28,13 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
+}
+
+.checkout-total{
+  font-size: 50px;
+  margin: 0px 0px 50px 0px;
+
 }
 
 @media (min-width: 100px) and (max-width: 500px) {

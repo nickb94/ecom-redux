@@ -1,0 +1,15 @@
+.page_wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner_box{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    font-size: 100px;
+}

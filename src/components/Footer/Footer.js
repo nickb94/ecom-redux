@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "react-router-dom";
+
 import "./Footer.css"
 
 export const Footer = () => {
@@ -7,7 +9,11 @@ export const Footer = () => {
         <div className="footer_wrapper">
             <div className="column_one">
                 <div>
-                <div>About</div>
+                <div>
+                    <Link to="/about">
+                    About
+                    </Link>
+                    </div>
                 <div>Team</div>
                 <div>Contact Us</div>
                 <div>Blogs</div>
