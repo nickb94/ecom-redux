@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ecom-redux/static/css/main.b8864164.chunk.css",
+    "main.js": "/ecom-redux/static/js/main.17991512.chunk.js",
+    "main.js.map": "/ecom-redux/static/js/main.17991512.chunk.js.map",
+    "runtime-main.js": "/ecom-redux/static/js/runtime-main.10e9feed.js",
+    "runtime-main.js.map": "/ecom-redux/static/js/runtime-main.10e9feed.js.map",
+    "static/js/2.e5474836.chunk.js": "/ecom-redux/static/js/2.e5474836.chunk.js",
+    "static/js/2.e5474836.chunk.js.map": "/ecom-redux/static/js/2.e5474836.chunk.js.map",
+    "index.html": "/ecom-redux/index.html",
+    "precache-manifest.4e3c39e6d111738291328384d667b34f.js": "/ecom-redux/precache-manifest.4e3c39e6d111738291328384d667b34f.js",
+    "service-worker.js": "/ecom-redux/service-worker.js",
+    "static/css/main.b8864164.chunk.css.map": "/ecom-redux/static/css/main.b8864164.chunk.css.map",
+    "static/js/2.e5474836.chunk.js.LICENSE.txt": "/ecom-redux/static/js/2.e5474836.chunk.js.LICENSE.txt",
+    "static/media/tag.94d3af0c.svg": "/ecom-redux/static/media/tag.94d3af0c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10e9feed.js",
+    "static/js/2.e5474836.chunk.js",
+    "static/css/main.b8864164.chunk.css",
+    "static/js/main.17991512.chunk.js"
+  ]
+}
